@@ -1,0 +1,8 @@
+{
+  "name": "AgroGuardAI",
+  "description": "A real-time, hands-free agronomy assistant for farmers, providing expert crop advice via live voice and video.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
