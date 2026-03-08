@@ -75,6 +75,7 @@ AgroGuardAI/
 ├── package.json
 └── vite.config.ts
 
+```
 Getting Started:
 ## 🚀 Getting Started
 
@@ -91,7 +92,7 @@ GEMINI_API_KEY=your_key_here
 # Run the app
 npm run dev
 
-```
+
 
 ---
 
