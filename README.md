@@ -69,28 +69,28 @@ AgroGuardAI is a **dual-force precision agriculture system** built in two layers
 AgroGuardAI/
 ├── README.md
 ├── LICENSE
-├── app/               → Mobile application code
-├── docs/              → Research papers and diagrams
-├── dataset/           → Nigerian crop disease image dataset (open)
-└── CONTRIBUTING.md    → How to contribute
-```
+├── CONTRIBUTING.md
+├── index.html
+├── src/          → App source code
+├── package.json
+└── vite.config.ts
 
----
-
+Getting Started:
 ## 🚀 Getting Started
 
-```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/AgroGuardAI.git
+git clone https://github.com/mohammerdzakari/AgroguardAI.git
+cd AgroguardAI
 
 # Install dependencies
-pip install -r requirements.txt
+npm install
 
 # Add your Gemini API key to .env
 GEMINI_API_KEY=your_key_here
 
 # Run the app
-python main.py
+npm run dev
+
 ```
 
 ---
