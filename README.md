@@ -71,14 +71,20 @@ AgroGuardAI/
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── index.html
-├── src/          → App source code
+├── metadata.json
 ├── package.json
-└── vite.config.ts
-
+├── tsconfig.json
+├── vite.config.ts
+├── .env.example
+├── .gitignore
+├── src/          → App source code
+├── app/          → Mobile application
+└── dataset/      → Open African crop disease dataset
 ```
-Getting Started:
+
 ## 🚀 Getting Started
 
+```
 # Clone the repository
 git clone https://github.com/mohammerdzakari/AgroguardAI.git
 cd AgroguardAI
@@ -91,6 +97,8 @@ GEMINI_API_KEY=your_key_here
 
 # Run the app
 npm run dev
+```
+
 
 
 
